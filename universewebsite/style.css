@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.modePicker {
+    float: right;
+}
+
+#lightmode {
+    margin-left: 5px;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+#mainText {
+    text-align: center;
+}
+
+#universeSizeText {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+#universeSizeText2 {
+    text-align: center;
+}
+
+#spinningPic {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    margin-top: 30px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+table img {
+    height: 200px;
+    cursor: url(/images/cursor.png), auto;
+}
+
+@media screen and (min-width: 481px) {
+
+
+    #planetList {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        
+    }
+
+    #astronaut:hover {
+        cursor: default;
+    }
+
+    td {
+        text-align: center;
+        display: inline-block;
+        width: 170px;
+    }
+
+    .search {
+        width: 100%;
+        display: flex;
+    }
+
+    .searchTerm {
+        width: 100%;
+        border: 3px solid #00B4CC;
+        border-right: none;
+        padding: 5px;
+        height: 40px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+    }
+
+    .searchTerm:focus {
+        color: #00B4CC;
+    }
+
+    .searchButton {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #00B4CC;
+        background: #00B4CC;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .wrap {
+        width: 20%;
+        transform: translate(-0%, -0%);
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .modePicker {
+        float: right;
+        font-size: 0.7rem;
+    }
+
+    .container {
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul img{
+    height: 200px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: url(/images/cursor.png), auto;
+}
+
+#astronaut:hover {
+    cursor: default;
+}
+
+ul p {
+    text-align: center;
+}
+
+#spinningPic {
+    position: relative;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    margin-top: 30px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+    .search {
+        width: 100%;
+        display: flex;
+    }
+
+    .searchTerm {
+        width: 100%;
+        border: 3px solid #00B4CC;
+        border-right: none;
+        padding: 5px;
+        height: 40px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+    }
+
+    .searchTerm:focus {
+        color: #00B4CC;
+    }
+
+    .searchButton {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #00B4CC;
+        background: #00B4CC;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .wrap {
+        width: 70%;
+        transform: translate(-0%, -0%);
+        margin: auto;
+    }
+}
