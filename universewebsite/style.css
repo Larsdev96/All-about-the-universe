@@ -16,8 +16,31 @@ body {
 }
 
 #lightmode {
-    margin-left: 5px;
+    display: none;
 }
+
+#darkmode {
+    display: none;
+}
+
+.fa-moon { 
+    color: #f1c40f;
+    margin-right: 35px;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+#darkmodus,
+#lightmodus {
+    cursor: pointer;
+}
+
+
+
+
+
 
 #title {
     text-align: center;
@@ -197,5 +220,14 @@ ul p {
         width: 70%;
         transform: translate(-0%, -0%);
         margin: auto;
+    }
+
+    .fa-moon { 
+        color: #f1c40f;
+        margin-right: 25px;
+    }
+    
+    .fa-sun {
+        color: #f39c12;
     }
 }
