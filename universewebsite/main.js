@@ -1,5 +1,5 @@
 
-document.getElementById("darkmode").addEventListener("click", drkmode); 
+document.getElementById("darkmodus").addEventListener("click", drkmode); 
 
 
 function drkmode(){
@@ -9,7 +9,7 @@ function drkmode(){
 }
 
 
-document.getElementById("lightmode").addEventListener("click", lghtmode); 
+document.getElementById("lightmodus").addEventListener("click", lghtmode); 
 
 
 function lghtmode(){
@@ -30,3 +30,5 @@ if (bckround) {
         drkmode();
     }
 }
+
+
